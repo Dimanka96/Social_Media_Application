@@ -1,0 +1,51 @@
+.leftbar{
+    
+        flex: 2;
+        position: sticky;
+        top: 50px;
+        height: calc(100vh - 50px);
+        overflow: scroll;
+        background-color: white;
+        color: #000;
+}
+.hr{
+    margin: 20px 0px;
+    border: none;
+    height: .5px;
+    background-color: lightgray;
+}
+
+.menu span{
+    font-size: 14px;
+}
+.menu{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftbaruser{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item img{
+    width: 30px;
+
+}
+.item span{
+    font-size: 12px;
+}
+

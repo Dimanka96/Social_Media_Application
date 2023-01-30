@@ -1,5 +1,5 @@
 import React from "react";
-import "/.profile.css";
+import "./profile.css";
 const Profile = () => {
     return (
       <div className="profile">
